@@ -19,7 +19,7 @@ defmodule Riakc.Mixfile do
   end
 
   defp package do
-    [files: ~w(buildbot include src LICENSE Makefile README.md rebar.config rebar.config.script tools.mk VERSION),
+    [files: ~w(include src LICENSE Makefile README.md RELNOTES.md rebar.config rebar.config.script tools.mk tools test priv VERSION),
      maintainers: ["Drew Kerrigan"],
      licenses: ["Apache 2.0"],
      links: %{"GitHub" => "https://github.com/basho/riak-erlang-client"}]
